@@ -1,5 +1,5 @@
 const cacheName = "hello-pwa";
-const assets = ["/", "/index.html", "/css/style.css", "/js/main.js"];
+const assets = ["./", "./index.html", "./css/main.css", "./js/main.js"];
 
 self.addEventListener("install", (installEvent) => {
   installEvent.waitUntil(
